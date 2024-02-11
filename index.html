@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Random Restaurant Picker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>🦑🍜🍩🍰Random Restaurant Picker🍣🍕🍔🍗</h1>
+        <label for="cityDropdown">Select City:</label>
+        <select id="cityDropdown">
+            <option value="Surrey/Langley">Surrey \ Langley</option>
+            <option value="Burnaby/New West">Burnaby \ New West</option>
+            <!-- Add more cities as needed -->
+        </select>
+        <label for="genresDropdown">Select Genre:</label>
+        <select id="genresDropdown">
+            <option value="Italian">Italian</option>
+            <option value="Mexican">Mexican</option>
+            <option value="Indian">Indian</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Sushi">Sushi</option>
+            <option value="Any">Any</option>
+
+
+            <!-- Add more cities as needed -->
+        </select>
+        <button onclick="showRandomRestaurant()">Pick Random Restaurant</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
